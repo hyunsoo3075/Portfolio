@@ -1,0 +1,139 @@
+@import "../../global.scss";
+.portfolio{
+    background-color: #a9dce3;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    h1{
+        
+        display:flex;
+        font-size: 40px;
+        padding-top:10px;
+        padding-bottom:10px;
+        overflow: hidden;
+        
+    }
+    .container{
+        @include mobile{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            grid-gap:10px;
+        }
+        display: grid;
+        
+        width:90%;
+        grid-gap:20px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1,1fr);
+        grid-gap: 40px;
+        padding-top:30px;
+        align-content: center;
+        height:80%;
+        
+        .grid{
+            @include mobile{
+                
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                max-height: 100%;
+                padding:0;
+                overflow-y: auto;
+                overflow-x: hidden;
+            }
+            position:relative;
+            padding-top: 10%;
+            border-radius: 20px;
+            
+            background-color: #7689de;
+            color:white;
+            #title{
+                @include mobile{
+                    display:none;
+                    
+                }
+                font-size: 20px;
+                display:table;
+                margin:0 auto;
+                
+            }
+            .image{
+                display:flex;
+                max-height: 40%;;
+                @include mobile{
+                    display:flex;
+                    max-height: 90%;
+                    max-width: 50%;
+                    margin-bottom: 10%;
+                }
+                img{
+                    @include mobile{
+                        display:flex;
+                        margin-top:40px;
+                        max-height: 80%;
+                        overflow-y: auto;
+                        overflow-x: hidden;
+                        
+                    }
+                    display:flex;
+                    margin-left:auto;
+                    margin-right:auto;
+                    
+                    border-radius: 5px;
+                    
+    
+                    max-height: inherit;
+                    max-width: 80%;
+                }
+            }
+            
+            .wrapper{
+                @include mobile{
+                    
+                    height: 100%;
+                    width: 100%;
+                    text-align: center;
+                    font-size: 12px;
+                    display: flex;
+                    justify-content: flex-end;
+                    flex-direction: column;
+                    
+                    
+                }
+                width:85%;
+                margin: 0 auto;
+                font-size: 1.8vh;
+                #description{
+                    @include mobile{
+                        height: 100%;
+                        font-size: 15px;
+                        padding-top:20px;
+                        font-size:10px;
+                        margin:10px;
+                    }
+                }
+            }
+            #tags{
+                // display:table;
+                // padding-top:20px;
+                // bottom:10%;
+                // margin:0 auto;
+                @include mobile{
+                    display:none;
+                }
+                height: 50px;
+                width: 100%;
+                text-align: center;
+                font-size: 12px;
+                display: flex;
+                justify-content: flex-end;
+                flex-direction: column;
+            }
+            
+            
+        }
+        
+    }
+    
+}
