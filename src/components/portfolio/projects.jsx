@@ -2,7 +2,7 @@ export const projects =[
     {
         title: "KDA Calculator",
         description: "Created a front end only webapp that calculates the KDA ((Kills+Assists)/Deaths) Ratio of inputted information by the user. Implemented UI that allows users to fill out the required imformation with ease. ",
-        image: '/assets/calc.png',
+        image: '/assets/helpme.PNG',
         tags:['React, JS, HTML, CSS, Node'],
         visit: 'https://hyunsoo-im-swe432-hw4.herokuapp.com/',
         id:0
@@ -12,7 +12,7 @@ export const projects =[
         description: "Created the classic Breakout game that allows users to control the paddle with the arrow keys to attempt to clear all the blocks with the bouncing ball. Practiced the use of OOP principles ",
         image: '/assets/unknown.png',
         tags:['Java, Swing, AWT Paint'],
-        visit: 'None',
+        visit: 'https://github.com/cdresdnerGMU/CSFinalProject',
         id:1
     },
     {
@@ -28,7 +28,7 @@ export const projects =[
         description: "Programmed a different approach on utilizing interpolation and binary search to lower the complexity time. Shortened the worst time for interpolation search from O(n) to O(logN) by finding the smaller boundaries each iteration between interpolation search and binary search.",
         image: '/assets/search.jpg',
         tags:['Python'],
-        visit: 'https://hyunsoo-im-swe432-hw4.herokuapp.com/',
+        visit: 'https://github.com/hyunsoo3075/interpolation-vs-binary-search',
         id:0
     }
 

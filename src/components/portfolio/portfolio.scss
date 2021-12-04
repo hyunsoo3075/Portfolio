@@ -32,9 +32,11 @@
         height:80%;
         
         .grid{
+            text-decoration:none;
             @include mobile{
                 
                 display:flex;
+                
                 justify-content: center;
                 align-items: center;
                 max-height: 100%;
@@ -46,7 +48,7 @@
             padding-top: 10%;
             border-radius: 20px;
             
-            background-color: #7689de;
+            background-color: #5f78e8;
             color:white;
             #title{
                 @include mobile{
@@ -60,7 +62,7 @@
             }
             .image{
                 display:flex;
-                max-height: 40%;;
+                max-height: 30%;
                 @include mobile{
                     display:flex;
                     max-height: 90%;
@@ -133,6 +135,7 @@
             
             
         }
+        .grid:hover {background-color: #3557f0 ;}
         
     }
     

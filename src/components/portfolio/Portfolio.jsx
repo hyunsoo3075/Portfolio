@@ -7,7 +7,7 @@ export default function Portfolio() {
             <h1>Projects</h1>
             <div className="container">
                {projects.map((project) => (
-                   <div className = "grid">
+                   <a href = {project.visit} className = "grid">
                        <span id = "title">
                             {project.title}
                        </span>
@@ -26,7 +26,7 @@ export default function Portfolio() {
                        </span>
                        
                        
-                    </div>
+                    </a>
 
                ))
 
