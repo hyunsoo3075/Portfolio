@@ -1,1 +1,1 @@
-[Link to Portfolio](www.hyunsoo.xyz)
+[Link to Portfolio](hyunsoo.xyz)
