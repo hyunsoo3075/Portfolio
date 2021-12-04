@@ -1,4 +1,5 @@
-import "./works.scss"
+import "./works.scss";
+import Pdf from "./resume.pdf";
 
 export default function Works() {
     return (
@@ -12,6 +13,8 @@ export default function Works() {
                 </div>
                 <div className="right">
 
+                    <iframe src={`${Pdf}#view=fitH`} title="testPdf" height="100%" width="100%" />
+                    
                 </div>
 
             </div>

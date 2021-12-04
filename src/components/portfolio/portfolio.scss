@@ -36,7 +36,7 @@
             @include mobile{
                 
                 display:flex;
-                
+
                 justify-content: center;
                 align-items: center;
                 max-height: 100%;
@@ -50,6 +50,7 @@
             
             background-color: #5f78e8;
             color:white;
+            transition: 0.3s;
             #title{
                 @include mobile{
                     display:none;
